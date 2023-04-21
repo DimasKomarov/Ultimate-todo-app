@@ -1,6 +1,8 @@
 <script>
     import AddTodoSection from "../lib/components/todos/AddTodoSection.svelte";
     import TodoSection from "../lib/components/todos/TodoSection.svelte";
+    import ProgressSection from "../lib/components/progress/ProgressSection.svelte";
+	import ProgressBar from "../lib/components/progress/ProgressBar.svelte";
 </script>
 
 <div class="min-h-screen bg-olive-one p-0 selection:bg-green-two md:py-24 md:px-8">
@@ -10,8 +12,9 @@
     md:rounded-2xl md:px-8 md:outline md:outline-4 md:outline-offset-8 md:outline-cream-four">
         <h1 class="text-2xl font-bold text-gray-three">Dashboard</h1>
         <div class="mt-10">
-            <AddTodoSection/>
-            <TodoSection/>
+            <AddTodoSection />
+            <TodoSection />
+            <ProgressSection />
         </div>
     </main>
 </div>
